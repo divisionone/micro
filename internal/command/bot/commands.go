@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-bot/command"
-	clic "github.com/micro/micro/internal/command/cli"
+	"github.com/divisionone/go-bot/command"
+	clic "github.com/divisionone/micro/internal/command/cli"
 )
 
 // Echo returns the same message

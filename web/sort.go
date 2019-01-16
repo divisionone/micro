@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/micro/go-micro/registry"
+	"github.com/divisionone/go-micro/registry"
 )
 
 type sortedServices struct {

@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-bot/command"
-	"github.com/micro/go-bot/input"
+	"github.com/divisionone/go-bot/command"
+	"github.com/divisionone/go-bot/input"
 
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/registry/mock"
+	"github.com/divisionone/go-micro"
+	"github.com/divisionone/go-micro/registry/mock"
 )
 
 type testInput struct {

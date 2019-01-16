@@ -116,8 +116,8 @@ import (
 	"github.com/micro/go-log"
 
 	"{{.Dir}}/client"
-	"github.com/micro/go-micro/errors"
-	api "github.com/micro/go-api/proto"
+	"github.com/divisionone/go-micro/errors"
+	api "github.com/divisionone/go-api/proto"
 	example "github.com/micro/examples/template/srv/proto/example"
 )
 
@@ -168,7 +168,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/micro/go-micro/client"
+	"github.com/divisionone/go-micro/client"
 	example "github.com/micro/examples/template/srv/proto/example"
 )
 

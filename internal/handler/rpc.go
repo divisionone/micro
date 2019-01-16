@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/micro/internal/helper"
+	"github.com/divisionone/go-micro/cmd"
+	"github.com/divisionone/go-micro/errors"
+	"github.com/divisionone/micro/internal/helper"
 )
 
 type rpcRequest struct {

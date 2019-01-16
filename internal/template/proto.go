@@ -65,7 +65,7 @@ message Pong {
 
 package {{.FQDN}};
 
-import "github.com/micro/go-api/proto/api.proto";
+import "github.com/divisionone/go-api/proto/api.proto";
 
 service Example {
 	rpc Call(go.api.Request) returns (go.api.Response) {}

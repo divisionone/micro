@@ -9,17 +9,17 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/micro/cli"
-	"github.com/micro/go-api/server"
+	"github.com/divisionone/go-api/server"
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
-	"github.com/micro/micro/internal/handler"
-	"github.com/micro/micro/internal/helper"
-	"github.com/micro/micro/internal/stats"
-	"github.com/micro/micro/plugin"
+	"github.com/divisionone/go-micro"
+	"github.com/divisionone/micro/internal/handler"
+	"github.com/divisionone/micro/internal/helper"
+	"github.com/divisionone/micro/internal/stats"
+	"github.com/divisionone/micro/plugin"
 
-	ahandler "github.com/micro/go-api/handler"
-	abroker "github.com/micro/go-api/handler/broker"
-	aregistry "github.com/micro/go-api/handler/registry"
+	ahandler "github.com/divisionone/go-api/handler"
+	abroker "github.com/divisionone/go-api/handler/broker"
+	aregistry "github.com/divisionone/go-api/handler/registry"
 )
 
 type srv struct {

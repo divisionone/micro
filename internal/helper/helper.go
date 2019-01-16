@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/metadata"
+	"github.com/divisionone/go-micro/metadata"
 )
 
 func ACMEHosts(ctx *cli.Context) []string {

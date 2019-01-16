@@ -5,7 +5,7 @@ var (
 
 import (
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	"github.com/divisionone/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 )
@@ -37,7 +37,7 @@ func main() {
 
 import (
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	"github.com/divisionone/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 
@@ -74,7 +74,7 @@ func main() {
 import (
 	"github.com/micro/go-log"
 
-	"github.com/micro/go-micro"
+	"github.com/divisionone/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/client"
 
@@ -109,7 +109,7 @@ import (
         "github.com/micro/go-log"
 	"net/http"
 
-        "github.com/micro/go-web"
+        "github.com/divisionone/go-web"
         "{{.Dir}}/handler"
 )
 

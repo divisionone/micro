@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/micro/micro/cmd"
+	"github.com/divisionone/micro/cmd"
 )
 
 func main() {
