@@ -11,15 +11,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	"github.com/divisionone/go-micro"
 
 	"github.com/divisionone/go-bot/command"
 	"github.com/divisionone/go-bot/input"
 	_ "github.com/divisionone/go-bot/input/hipchat"
 	_ "github.com/divisionone/go-bot/input/slack"
-	"github.com/micro/go-log"
 	botc "github.com/divisionone/micro/internal/command/bot"
+	"github.com/micro/go-log"
 
 	proto "github.com/divisionone/go-bot/proto"
 )

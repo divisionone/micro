@@ -12,10 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gorilla/mux"
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	"github.com/divisionone/go-api/server"
-	"github.com/micro/go-log"
 	"github.com/divisionone/go-micro"
 	"github.com/divisionone/go-micro/cmd"
 	"github.com/divisionone/go-micro/registry"
@@ -25,6 +23,8 @@ import (
 	"github.com/divisionone/micro/internal/helper"
 	"github.com/divisionone/micro/internal/stats"
 	"github.com/divisionone/micro/plugin"
+	"github.com/gorilla/mux"
+	"github.com/micro/go-log"
 	"github.com/serenize/snaker"
 )
 

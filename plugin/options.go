@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 )
 
 // Options are used as part of a new plugin

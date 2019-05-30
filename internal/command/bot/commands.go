@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	"github.com/divisionone/go-bot/command"
 	clic "github.com/divisionone/micro/internal/command/cli"
 )

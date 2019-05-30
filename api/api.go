@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/divisionone/cli"
 	ahandler "github.com/divisionone/go-api/handler"
 	aapi "github.com/divisionone/go-api/handler/api"
 	"github.com/divisionone/go-api/handler/event"
@@ -21,7 +22,6 @@ import (
 	"github.com/divisionone/micro/internal/stats"
 	"github.com/divisionone/micro/plugin"
 	"github.com/gorilla/mux"
-	"github.com/micro/cli"
 	"github.com/micro/go-log"
 )
 

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	tmpl "github.com/divisionone/micro/internal/template"
 	"github.com/xlab/treeprint"
 )

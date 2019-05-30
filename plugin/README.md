@@ -55,7 +55,7 @@ package main
 
 import (
 	"log"
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	"github.com/micro/micro/plugin"
 )
 
