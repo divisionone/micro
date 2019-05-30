@@ -6,7 +6,7 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 )
 
 func quit(c *cli.Context, args []string) {
@@ -19,7 +19,7 @@ func help(c *cli.Context, args []string) {
 	fmt.Fprintln(os.Stdout)
 
 	var keys []string
-	for k, _ := range commands {
+	for k := range commands {
 		keys = append(keys, k)
 	}
 	sort.Strings(keys)

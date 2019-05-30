@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli"
+	"github.com/divisionone/cli"
 	"github.com/divisionone/go-micro/metadata"
 )
 
