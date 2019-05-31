@@ -4,10 +4,10 @@ import (
 	"strings"
 
 	ccli "github.com/divisionone/cli"
-	"github.com/divisionone/divisionone/cli"
 	"github.com/divisionone/go-micro/cmd"
 	"github.com/divisionone/micro/api"
 	"github.com/divisionone/micro/bot"
+	"github.com/divisionone/micro/cli"
 	"github.com/divisionone/micro/new"
 	"github.com/divisionone/micro/plugin"
 	"github.com/divisionone/micro/proxy"
