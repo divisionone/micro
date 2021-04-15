@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"strings"
 	"time"
+	"sync"
 
 	"github.com/divisionone/cli"
 	ahandler "github.com/divisionone/go-api/handler"
@@ -38,7 +39,8 @@ var (
 )
 
 type srv struct {
-	*mux.Router
+	router *mux.Router
+	wg *sync.WaitGroup
 }
 
 func (s *srv) ServeHTTP(w http.ResponseWriter, r *http.Request) {
@@ -56,7 +58,12 @@ func (s *srv) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	s.Router.ServeHTTP(w, r)
+	if s.wg != nil {
+		s.wg.Add(1)
+		defer s.wg.Done()
+	}
+
+	s.router.ServeHTTP(w, r)
 }
 
 func run(ctx *cli.Context) {
@@ -103,9 +110,14 @@ func run(ctx *cli.Context) {
 		opts = append(opts, server.TLSConfig(config))
 	}
 
+	// Use a wait-group to track in-flight requests that we will/should
+	// wait for upon shutdown.
+	wg := new(sync.WaitGroup)
+	opts = append(opts, server.Wait(wg))
+
 	// create the router
 	r := mux.NewRouter()
-	s := &srv{r}
+	s := &srv{r, wg}
 	var h http.Handler = s
 
 	if ctx.GlobalBool("enable_stats") {
