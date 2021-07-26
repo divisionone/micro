@@ -16,7 +16,6 @@ import (
 
 	"github.com/divisionone/go-bot/command"
 	"github.com/divisionone/go-bot/input"
-	_ "github.com/divisionone/go-bot/input/hipchat"
 	_ "github.com/divisionone/go-bot/input/slack"
 	botc "github.com/divisionone/micro/internal/command/bot"
 	"github.com/micro/go-log"
