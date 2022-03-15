@@ -12,7 +12,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/micro/go-log v0.1.0
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e
-	github.com/xlab/treeprint v1.1.0
+	github.com/xlab/treeprint v1.0.0
 	google.golang.org/grpc v1.33.0
 )
 
