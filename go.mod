@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/divisionone/cli v1.0.0
-	github.com/divisionone/go-api v1.0.5-0.20220315001214-580bca8f4be4
+	github.com/divisionone/go-api v1.0.5
 	github.com/divisionone/go-bot v1.0.5
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-plugins v1.0.2-0.20220315002132-3893f6bf0c96

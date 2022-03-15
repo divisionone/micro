@@ -14,8 +14,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/divisionone/cli v1.0.0 h1:eGRXODR6fknJ11ExO+CVvalu83PG96QTwzLUu5q9YPI=
 github.com/divisionone/cli v1.0.0/go.mod h1:HkcoCxovQ+y6XJQjKo5biNu29acObY/wkoMjWp09KbQ=
-github.com/divisionone/go-api v1.0.5-0.20220315001214-580bca8f4be4 h1:aPMDUzPwxYoj+RFg45r09tXmvX76rJr290jT2Yggz10=
-github.com/divisionone/go-api v1.0.5-0.20220315001214-580bca8f4be4/go.mod h1:kTCNkd3yCH98VL67oW9NeDSxxls7bt7X3pyvqz2iG5A=
+github.com/divisionone/go-api v1.0.5 h1:+5WP55sfottmS8OIy/n1t8Fe8BYnISvWT65c4FJxU78=
+github.com/divisionone/go-api v1.0.5/go.mod h1:XfTFLtFxbQjT2l2s7WNrl9pSiLRQYxeJ230tfrvM3g0=
 github.com/divisionone/go-bot v1.0.5 h1:jG7uwk4YMRyaKSn26EA+qfoV10LhcQskCjXcjTgLhJI=
 github.com/divisionone/go-bot v1.0.5/go.mod h1:TzzH13tsqquaU7YIycYCh5NI2q5O4FTwCJrJsd6EpnA=
 github.com/divisionone/go-micro v1.2.1 h1:DJy/IctQpcTOkyffVCEVWwE07pmrj7/8OLZSPxJhulQ=
