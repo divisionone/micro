@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/divisionone/cli v1.0.0
-	github.com/divisionone/go-api v1.0.5
+	github.com/divisionone/go-api v1.0.6
 	github.com/divisionone/go-bot v1.0.5
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-plugins v1.0.2
@@ -50,7 +50,7 @@ require (
 	github.com/onsi/gomega v1.10.0 // indirect
 	github.com/pborman/uuid v1.2.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70 // indirect
+	golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58 // indirect
 	golang.org/x/mod v0.4.2 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
