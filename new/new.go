@@ -12,7 +12,6 @@ import (
 
 	"github.com/divisionone/cli"
 	tmpl "github.com/divisionone/micro/internal/template"
-	"github.com/xlab/treeprint"
 )
 
 type config struct {
@@ -67,40 +66,6 @@ func create(c config) error {
 	}
 
 	fmt.Printf("Creating service %s in %s\n\n", c.FQDN, c.GoDir)
-
-	t := treeprint.New()
-
-	nodes := map[string]treeprint.Tree{}
-	nodes[c.GoDir] = t
-
-	// write the files
-	for _, file := range c.Files {
-		f := filepath.Join(c.GoDir, file.Path)
-		dir := filepath.Dir(f)
-
-		b, ok := nodes[dir]
-		if !ok {
-			d, _ := filepath.Rel(c.GoDir, dir)
-			b = t.AddBranch(d)
-			nodes[dir] = b
-		}
-
-		if _, err := os.Stat(dir); os.IsNotExist(err) {
-			if err := os.MkdirAll(dir, 0755); err != nil {
-				return err
-			}
-		}
-
-		p := filepath.Base(f)
-
-		b.AddNode(p)
-		if err := write(c, f, file.Tmpl); err != nil {
-			return err
-		}
-	}
-
-	// print tree
-	fmt.Println(t.String())
 
 	for _, comment := range c.Comments {
 		fmt.Println(comment)
