@@ -17,8 +17,8 @@ import (
 	"github.com/divisionone/go-bot/command"
 	"github.com/divisionone/go-bot/input"
 	_ "github.com/divisionone/go-bot/input/slack"
+	"github.com/divisionone/micro-go-log"
 	botc "github.com/divisionone/micro/internal/command/bot"
-	"github.com/micro/go-log"
 
 	proto "github.com/divisionone/go-bot/proto"
 )

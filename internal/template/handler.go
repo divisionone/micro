@@ -23,7 +23,7 @@ func (e *Example) Call(ctx context.Context, req *example.Request, rsp *example.R
 import (
 	"context"
 
-	"github.com/micro/go-log"
+	"github.com/divisionone/micro-go-log"
 
 	example "{{.Dir}}/proto/example"
 )
@@ -73,7 +73,7 @@ func (e *Example) PingPong(ctx context.Context, stream example.Example_PingPongS
 import (
 	"context"
 
-	"github.com/micro/go-log"
+	"github.com/divisionone/micro-go-log"
 
 	example "{{.Dir}}/proto/example"
 )
@@ -90,7 +90,7 @@ func (e *Example) Handle(ctx context.Context, msg *example.Message) error {
 
 import (
 	"context"
-	"github.com/micro/go-log"
+	"github.com/divisionone/micro-go-log"
 
 	example "{{.Dir}}/proto/example"
 )
@@ -113,7 +113,7 @@ func Handler(ctx context.Context, msg *example.Message) error {
 import (
 	"context"
 	"encoding/json"
-	"github.com/micro/go-log"
+	"github.com/divisionone/micro-go-log"
 
 	"{{.Dir}}/client"
 	"github.com/divisionone/go-micro/errors"

@@ -19,12 +19,12 @@ import (
 	"github.com/divisionone/go-micro/registry"
 	"github.com/divisionone/go-micro/selector"
 	"github.com/divisionone/go-micro/selector/cache"
+	"github.com/divisionone/micro-go-log"
 	"github.com/divisionone/micro/internal/handler"
 	"github.com/divisionone/micro/internal/helper"
 	"github.com/divisionone/micro/internal/stats"
 	"github.com/divisionone/micro/plugin"
 	"github.com/gorilla/mux"
-	"github.com/micro/go-log"
 	"github.com/serenize/snaker"
 )
 
