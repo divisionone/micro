@@ -4,8 +4,9 @@ var (
 	MainFNC = `package main
 
 import (
-	"github.com/micro/go-log"
 	"github.com/divisionone/go-micro"
+	"github.com/divisionone/micro-go-log"
+
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 )
@@ -36,8 +37,9 @@ func main() {
 	MainSRV = `package main
 
 import (
-	"github.com/micro/go-log"
 	"github.com/divisionone/go-micro"
+	"github.com/divisionone/micro-go-log"
+
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 
@@ -72,9 +74,9 @@ func main() {
 	MainAPI = `package main
 
 import (
-	"github.com/micro/go-log"
-
 	"github.com/divisionone/go-micro"
+	"github.com/divisionone/micro-go-log"
+
 	"{{.Dir}}/handler"
 	"{{.Dir}}/client"
 
@@ -106,11 +108,12 @@ func main() {
 	MainWEB = `package main
 
 import (
-        "github.com/micro/go-log"
 	"net/http"
 
-        "github.com/divisionone/go-web"
-        "{{.Dir}}/handler"
+	"github.com/divisionone/micro-go-log"
+	"github.com/divisionone/go-web"
+
+	"{{.Dir}}/handler"
 )
 
 func main() {

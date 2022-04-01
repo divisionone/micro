@@ -10,12 +10,12 @@ import (
 	"github.com/divisionone/cli"
 	"github.com/divisionone/go-api/server"
 	"github.com/divisionone/go-micro"
+	"github.com/divisionone/micro-go-log"
 	"github.com/divisionone/micro/internal/handler"
 	"github.com/divisionone/micro/internal/helper"
 	"github.com/divisionone/micro/internal/stats"
 	"github.com/divisionone/micro/plugin"
 	"github.com/gorilla/mux"
-	"github.com/micro/go-log"
 
 	ahandler "github.com/divisionone/go-api/handler"
 	abroker "github.com/divisionone/go-api/handler/broker"
