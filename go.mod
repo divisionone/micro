@@ -8,9 +8,9 @@ require (
 	github.com/divisionone/go-bot v1.0.6-0.20220330054741-022d0dd6543f
 	github.com/divisionone/go-micro v1.2.2-0.20220330054725-16024c10ee32
 	github.com/divisionone/go-plugins v1.0.4-0.20220330054429-4fb97de31add
+	github.com/divisionone/micro-go-log v0.0.0-20220329225141-38dfc0353446
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/mux v1.8.0
-	github.com/micro/go-log v0.1.0
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e
 	google.golang.org/grpc v1.33.0
 )
@@ -36,6 +36,7 @@ require (
 	github.com/joncalhoun/qson v0.0.0-20200422171543-84433dcd3da0 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
+	github.com/micro/go-log v0.1.0 // indirect
 	github.com/miekg/dns v1.1.46 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure v1.1.0 // indirect
