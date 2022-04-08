@@ -4,10 +4,10 @@ go 1.17
 
 require (
 	github.com/divisionone/cli v1.0.0
-	github.com/divisionone/go-api v1.0.7-0.20220407231922-e781e22ddc86
-	github.com/divisionone/go-bot v1.0.6-0.20220407231634-cd60bea3bca2
+	github.com/divisionone/go-api v1.0.7-0.20220407232039-98f5e6088efa
+	github.com/divisionone/go-bot v1.0.6-0.20220407232027-be85d598b9ae
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/go-plugins v1.0.4-0.20220407231855-91cb30227f57
+	github.com/divisionone/go-plugins v1.0.4-0.20220407232033-52655e90d800
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/mux v1.8.0
