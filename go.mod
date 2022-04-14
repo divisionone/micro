@@ -7,7 +7,7 @@ require (
 	github.com/divisionone/go-api v1.0.7-0.20220411052420-737c5cddcefb
 	github.com/divisionone/go-bot v1.0.6-0.20220407232027-be85d598b9ae
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/go-plugins v1.0.4-0.20220412032012-8bd214e6fadd
+	github.com/divisionone/go-plugins v1.0.4
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/mux v1.8.0
