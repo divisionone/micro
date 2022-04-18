@@ -2,10 +2,12 @@ module github.com/divisionone/micro
 
 go 1.17
 
+replace github.com/divisionone/go-micro => github.com/divisionone/go-micro v0.0.0-20220418234210-0f996366e1ba
+
 require (
-	github.com/divisionone/cli v1.0.0
+	github.com/divisionone/cli v0.2.2-0.20220418232820-7231882c8555
 	github.com/divisionone/go-api v1.0.1
-	github.com/divisionone/go-bot v1.0.5
+	github.com/divisionone/go-bot v0.0.0-20220418234908-5d481b581eab
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-plugins v1.0.0
 	github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a
