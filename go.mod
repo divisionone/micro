@@ -8,7 +8,7 @@ require (
 	github.com/divisionone/go-bot v1.0.5
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-plugins v1.0.0
-	github.com/divisionone/micro-go-log v0.0.0-20220418230942-8cae87b895f4
+	github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/mux v1.8.0
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e
