@@ -20,8 +20,6 @@ github.com/divisionone/go-bot v1.0.6-0.20220407232027-be85d598b9ae h1:ZWc/9+PJC2
 github.com/divisionone/go-bot v1.0.6-0.20220407232027-be85d598b9ae/go.mod h1:YTXWHbEcKUgmRTnC0lCmQqhVvL7gA9GgoGkExXIkK/w=
 github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f h1:f3cSEpUPea78Zu0J+K/rgQz9zMI+97IzLeuh8ZTkzf4=
 github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f/go.mod h1:69rhK42Apbud7F+vxDBaERUcyBFKWSJWoSLSqFUfnhc=
-github.com/divisionone/go-plugins v1.0.4-0.20220412032012-8bd214e6fadd h1:AehCPtuuZuLDYIO9o6TrKqFpMGEO12b3UeSiL11kJPE=
-github.com/divisionone/go-plugins v1.0.4-0.20220412032012-8bd214e6fadd/go.mod h1:9ss6R2uTrbVclfJg2ZeFIS/rY1VI/Wql8StDfvk32O4=
 github.com/divisionone/go-plugins v1.0.4 h1:K2aZfNSRO7Qw60J0aYQ6s396CmjCpFZjBwFyEJdV1Fc=
 github.com/divisionone/go-plugins v1.0.4/go.mod h1:KlniKbPZLADw4hh2NoDv+pACtEEzAfPvi3M38+lK/TU=
 github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1 h1:57HS2kkIxXjterhN61RE/LsMRhBSGPEkUCIa+r7qNjM=
