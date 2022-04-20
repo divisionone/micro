@@ -12,7 +12,7 @@ require (
 	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/mux v1.8.0
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e
-	google.golang.org/grpc v1.33.0
+	google.golang.org/grpc v1.33.1
 )
 
 require (
