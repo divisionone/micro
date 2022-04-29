@@ -57,6 +57,5 @@ require (
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884 // indirect
+	google.golang.org/protobuf v1.28.0 // indirect
 )
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
