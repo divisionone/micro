@@ -16,10 +16,10 @@ github.com/divisionone/cli v1.0.0 h1:eGRXODR6fknJ11ExO+CVvalu83PG96QTwzLUu5q9YPI
 github.com/divisionone/cli v1.0.0/go.mod h1:HkcoCxovQ+y6XJQjKo5biNu29acObY/wkoMjWp09KbQ=
 github.com/divisionone/go-api v1.0.7-0.20220420060634-ba6c59969a1a h1:EbvcaUaeBVXRJqrJDGek0U/e4HBhQL3fTC1C1CPBPrU=
 github.com/divisionone/go-api v1.0.7-0.20220420060634-ba6c59969a1a/go.mod h1:95/r6LBE/amszybGzlZSajniP4b0PginXVbmWyBl6zc=
-github.com/divisionone/go-bot v1.0.6-0.20220420225715-e2be479cd64f h1:SIVTJlNZtPwakiYctxZJbEyatJ+dopoZPRk6NFcko+M=
-github.com/divisionone/go-bot v1.0.6-0.20220420225715-e2be479cd64f/go.mod h1:D6aoIx/lX/G2PAyRJZQHZCQjv2F0yKIr/gQEDdS1Ebg=
-github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f h1:f3cSEpUPea78Zu0J+K/rgQz9zMI+97IzLeuh8ZTkzf4=
-github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f/go.mod h1:69rhK42Apbud7F+vxDBaERUcyBFKWSJWoSLSqFUfnhc=
+github.com/divisionone/go-bot v1.0.6-0.20220429041118-7870debd1473 h1:evXhJhJiyXXVhk3pO10lsMV1/ALOeUKMb2uxaPVCo3w=
+github.com/divisionone/go-bot v1.0.6-0.20220429041118-7870debd1473/go.mod h1:8mcHYGtxCzlSjavuHuj1tus7CnaVcL45GiidyKBTl60=
+github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf h1:G8DJ8X1E4IA59hKKBiaJKH/s8NRT7J9w9WompwEtKDE=
+github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf/go.mod h1:aTVMBB5w2Tovi0VzTpPKzXeGMe7RlD9gnmSPqOve1PM=
 github.com/divisionone/go-plugins v1.0.5-0.20220420225729-0a1c32e5d0c8 h1:e/yjIcWNsyHpMBflWRTPOJ7ywxlFFnkB39S15eqN1l8=
 github.com/divisionone/go-plugins v1.0.5-0.20220420225729-0a1c32e5d0c8/go.mod h1:fowSaK3GcSJt00+0C7DiMfAL5TTFe3lFY6hqKDO4ygM=
 github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1 h1:57HS2kkIxXjterhN61RE/LsMRhBSGPEkUCIa+r7qNjM=
@@ -50,8 +50,8 @@ github.com/golang/protobuf v1.3.5/go.mod h1:6O5/vntMXwX2lRkT1hjjk0nAC1IDOTvTlVgj
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c h1:964Od4U6p2jUkFxvCydnIczKteheJEzHRToSGK3Bnlw=
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
+github.com/google/go-cmp v0.4.0 h1:xsAVV57WRhGj6kEIi8ReJzQlHHqcBYCElAvkovg3B/4=
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
-github.com/google/go-cmp v0.5.5 h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=
 github.com/google/uuid v1.0.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/google/uuid v1.1.2 h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=
 github.com/google/uuid v1.1.2/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=

@@ -5,11 +5,11 @@ go 1.17
 require (
 	github.com/divisionone/cli v1.0.0
 	github.com/divisionone/go-api v1.0.7-0.20220420060634-ba6c59969a1a
-	github.com/divisionone/go-bot v1.0.6-0.20220420225715-e2be479cd64f
-	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
+	github.com/divisionone/go-bot v1.0.6-0.20220429041118-7870debd1473
+	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
 	github.com/divisionone/go-plugins v1.0.5-0.20220420225729-0a1c32e5d0c8
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
-	github.com/golang/protobuf v1.5.0
+	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.8.0
 	github.com/serenize/snaker v0.0.0-20201027110005-a7ad2135616e
 	google.golang.org/grpc v1.33.1
