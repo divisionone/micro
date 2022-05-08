@@ -6,7 +6,7 @@ require (
 	github.com/divisionone/cli v1.0.0
 	github.com/divisionone/go-api v1.0.7-0.20220420060634-ba6c59969a1a
 	github.com/divisionone/go-bot v1.0.6-0.20220429041118-7870debd1473
-	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
+	github.com/divisionone/go-micro v1.2.2-0.20220505031121-c641ec568d86
 	github.com/divisionone/go-plugins v1.0.5-0.20220420225729-0a1c32e5d0c8
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/golang/protobuf v1.5.2
@@ -17,7 +17,7 @@ require (
 
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
-	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1 // indirect
+	github.com/divisionone/go-rcache v1.0.4-0.20220429052643-64447305d86a // indirect
 	github.com/divisionone/mdns v1.0.1 // indirect
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd // indirect
 	github.com/fatih/color v1.9.0 // indirect
