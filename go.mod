@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/divisionone/cli v1.5.0
-	github.com/divisionone/go-api v1.5.0
+	github.com/divisionone/go-api v1.5.1
 	github.com/divisionone/go-bot v1.5.0
 	github.com/divisionone/go-micro v1.5.0
 	github.com/divisionone/go-micro/metadata v1.5.0
