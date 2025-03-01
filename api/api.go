@@ -128,8 +128,10 @@ func run(ctx *cli.Context) {
 	)
 
 	// register rpc handler
-	log.Logf("Registering RPC Handler at %s", RPCPath)
-	r.HandleFunc(RPCPath, handler.RPC)
+	if ctx.GlobalBool("enable_rpc") {
+		log.Logf("Registering RPC Handler at %s", RPCPath)
+		r.HandleFunc(RPCPath, handler.RPC)
+	}
 
 	switch Handler {
 	case "rpc":
@@ -230,6 +232,11 @@ func Commands() []cli.Command {
 				Name:   "cors",
 				Usage:  "Comma separated whitelist of allowed origins for CORS",
 				EnvVar: "MICRO_API_CORS",
+			},
+			cli.BoolFlag{
+				Name:   "enable_rpc",
+				Usage:  "Enables an RPC handler route at /rpc.",
+				EnvVar: "MICRO_API_ENABLE_RPC",
 			},
 		},
 	}
